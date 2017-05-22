@@ -1,6 +1,18 @@
+@font-face {
+    font-family: Champagne_Limousines;
+    src: url('Champagne & Limousines.ttf');
+}
+
+@font-face { 
+    font-family: Champagne_Limousines; 
+    font-weight: bold; 
+    src: url('Champagne & Limousines Bold.ttf');
+}
+
 * {
     border-radius: 0 !important;
     letter-spacing: 1px;
+    font-family: Champagne_Limousines, sans-serif;
 }
 
 font-family {
@@ -49,7 +61,8 @@ font-family {
 }
 
 .texto-header {
-    margin-top: 170px;    
+    margin-top: 170px;
+    padding-left: 0px;
     color: white;
 }
 
