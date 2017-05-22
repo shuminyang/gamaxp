@@ -2,7 +2,7 @@
 
 var app = angular.module('MyInvest', []);
 
-var controller = app.controller('FormController', function () {
+var controllerForm = app.controller('FormController', function () {
     var vm = this;
 
     vm.inputName = '';
@@ -37,4 +37,23 @@ var controller = app.controller('FormController', function () {
 
         return false;
     };
+});
+
+var controllerBody = app.controller('BodyController', function () {
+
+    var vm = this;
+
+    vm.textoEstrutura = true;
+    vm.pesquisa = false;
+
+    vm.mostrarPesquisa = function () {
+        vm.textoEstrutura = false;
+        vm.pesquisa = true;
+    };
+
+    vm.mostrarTexto = function () {
+        vm.textoEstrutura = true;
+        vm.pesquisa = false;
+    }
+
 });
