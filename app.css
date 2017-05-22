@@ -44,13 +44,12 @@ font-family {
 }
 
 .img-header {
-    background: url("http://www.chungcugoldenland.info/data/out/254/45468958-ny-skyline-wallpapers-and-screensavers.jpg");    
+    background: url("http://i.imgur.com/FU6Ji54.png");  
     transform: translate3d(0px, 0px, 0px);
 }
 
 .texto-header {
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 170px;    
     color: white;
 }
 
@@ -64,6 +63,14 @@ font-family {
 
 .footer-blog {
     background-color: #42705d;
-    height: 250px;
+    height: 100px;
     width: 100%;
+}
+
+.blog-links {
+    color: #8ae8c2;
+}
+
+.texto-bottom {
+    color: white;
 }
