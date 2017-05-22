@@ -61,3 +61,9 @@ font-family {
 .conteudo-li{
     color: black !important;
 }
+
+.footer-blog {
+    background-color: #42705d;
+    height: 250px;
+    width: 100%;
+}
