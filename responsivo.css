@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 993px) {
 
     .texto-header {
         padding-left: 15px;        
@@ -30,7 +30,10 @@
 
     .imagem-resize {
         width: 210px;
-        height: 150px;
-        margin-top: 30px;
+        height: 150px;        
+    }
+
+    .texto-responsivo {
+        font-size: 11px;
     }
 }
