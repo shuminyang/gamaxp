@@ -36,4 +36,8 @@
     .texto-responsivo {
         font-size: 11px;
     }
+
+    .pesquisa-display {
+        width: 500px;
+    }
 }
