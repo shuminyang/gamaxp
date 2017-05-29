@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Champagne_Limousines;
+    src: url('./fonts/MYRIADPRO-REGULAR.OTF');
+}
+
+@font-face { 
+    font-family: Champagne_Limousines; 
+    font-weight: bold; 
+    src: url('./fonts/MYRIADPRO-BOLD.OTF');
+}
+
+* {
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-family: Champagne_Limousines, sans-serif;
+}

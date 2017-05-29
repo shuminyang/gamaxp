@@ -1,0 +1,22 @@
+.logo-brand {
+    width: 80%;
+}
+
+.navbar-brand {
+    padding-top: 7px;    
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #315044;
+    border-color: #315044;    
+}
+
+.li-hover-nav:hover {
+    background-color: #317b5f;
+    border-color: #317b5f;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}

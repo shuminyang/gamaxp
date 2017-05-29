@@ -1,0 +1,25 @@
+.banner-footer {
+    width: 60%;
+}
+
+.logo-header {
+    width: 50%;
+}
+
+.texto-bottom {
+    color: white;
+}
+
+.hr-footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1.5px solid gray;
+}
+
+.facebook-footer {
+    width: 10%;
+}
+
+.instagram-footer {
+    width: 6.3%;
+}
