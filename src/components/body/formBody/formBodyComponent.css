@@ -1,0 +1,9 @@
+.tamanho-input {
+    padding: 0 0 0 20px;
+    height: 50px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:visited, .btn-primary:active, .btn-primary:active:focus, .btn-primary:active:hover {
+    background-color: #15705b;
+    border-color: #15705b
+}

@@ -1,0 +1,25 @@
+.label-success {
+    background-color: #2e5f58;
+}
+
+.label {
+    border-radius: .5em;
+}
+
+.blog-links {
+    color: #1e4e3b;
+    font-weight: bold;
+}
+
+.imagem-resize {
+    width: 100%;
+    height: 150px;
+}
+
+.link-blog {
+    color: #293e26;
+}
+
+.hr-verde {
+    border-color: #315044;
+}
