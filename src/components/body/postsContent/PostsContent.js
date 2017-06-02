@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import './bodyContent.css';
+import './postsContent.css';
 
 import criseAno from '../../../images/freeimage-18962695-web.jpg';
 
 
-class BodyContent extends Component {
+class PostsContent extends Component {
 
     render() {
         return (
@@ -25,7 +25,7 @@ class BodyContent extends Component {
                         <div className="col-md-6">
                             <p>{this.props.post.description}</p>
                             <p>
-                                <a href="#" className="link-blog">Saiba mais >></a>
+                                <a href={undefined} className="link-blog">Saiba mais >></a>
                             </p>
                         </div>
                     </div>
@@ -41,5 +41,5 @@ class BodyContent extends Component {
     }
 }
 
-export default BodyContent;
+export default PostsContent;
 
