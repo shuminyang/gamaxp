@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-
 import './postsContent.css';
 
-import criseAno from '../../../images/freeimage-18962695-web.jpg';
-
+// import imagem from '../../../images/DSCN0985.jpg';
 
 class PostsContent extends Component {
 
-    render() {
+    render() {        
+        const image = require(`../../../images/${this.props.post.image}`);
+
         return (
             <div>
                 <div className="col-md-12">
@@ -20,7 +20,7 @@ class PostsContent extends Component {
                     </div>
                     <div className="col-md-12">
                         <div className="col-md-6 div-resize">
-                            <img src={criseAno} alt="Imagem verde" className="imagem-resize" />
+                            <img src={image} alt="Imagem verde" className="imagem-resize" />
                         </div>
                         <div className="col-md-6">
                             <p>{this.props.post.description}</p>

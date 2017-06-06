@@ -36,7 +36,7 @@ class PostsComponent extends Component {
                 <div>
                     <div className='col-md-12 '>
                         <div className='col-md-12 '>
-                            <button className='btn btn-success pull-right' onClick={this.handleFormOpen}>Criar novo post</button>
+                            <button className='btn btn-primary pull-right' onClick={this.handleFormOpen}>Criar novo post</button>
                         </div>
                     </div>
                     {
